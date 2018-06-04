@@ -2,9 +2,10 @@
 published: true
 layout: post
 title: Discrete metric spaces are complete.
+date: 2018-06-03
 ---
 
-**June 3, 2018. Part of a running commentary of Dave Perkinson's notes on real analysis.**
+**Part of a running commentary of Dave Perkinson's notes on real analysis.**
 
 As an example of a complete metric space, Dave Perkinson claims in his real analysis notes that any discrete metric space is complete:
 
