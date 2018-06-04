@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Discrete metric spaces are complete.
 ---
