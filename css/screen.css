@@ -149,6 +149,10 @@ ul.posts {
 
 }
 
+  #post .title-block {
+    text-weight: bold;  
+  }
+
   #post .title a {
     color: #a00;
     text-decoration: none;
