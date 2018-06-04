@@ -4,7 +4,7 @@ layout: post
 title: Discrete metric spaces are complete.
 ---
 
-**June 3, 2018. Part of a running commentary of Dave Perkinson's notes on real analysis.**.
+**June 3, 2018. Part of a running commentary of Dave Perkinson's notes on real analysis.**
 
 As an example of a complete metric space, Dave Perkinson claims in his real analysis notes that any discrete metric space is complete:
 
@@ -12,7 +12,7 @@ As an example of a complete metric space, Dave Perkinson claims in his real anal
 
 This follows from the following characterisation of Cauchy sequences in discrete metric spaces:
 
-**Lemma:** *A sequence $${x_n}$$ in $$(M, \textrm{disc})$$ is Cauchy iff it is eventually constant.* (This is straightforward to show, so attempt it yourself!)
+**Lemma:** *A sequence $$\{x_n\}$$ in $$(M, \textrm{disc})$$ is Cauchy iff it is eventually constant.* (This is straightforward to show, so attempt it yourself!)
 
 *Proof.* The $$\impliedby$$ direction is simple: assume that $${x_n}$$ is constant after an index $$N$$. Then for all $$\epsilon>0$$ and any $$m,n>N$$, we have $$d(x_m,x_n)=0<\epsilon$$.
 
