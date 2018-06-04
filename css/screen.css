@@ -149,8 +149,8 @@ ul.posts {
 
 }
 
-  #post .title-block {
-    text-weight: bold;  
+  #post #title-block {
+    font-weight: bold;  
   }
 
   #post .title a {
