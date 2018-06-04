@@ -6,7 +6,7 @@ published: true
 
 <div id="post">
   <div id="title-block">
-    <span class="title">{{ page.title }}</span> {{ page.date }}
+    <span class="title">{{ page.title }}</span> {{ page.date | date: '%B %d, %Y'}}
   </div>
 {{ content }}
 </div>
