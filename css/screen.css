@@ -123,7 +123,7 @@ ul.posts {
        border-top: 4px solid #eee;
        margin-top: 2em; */
     overflow: hidden;
-    border-bottom: 2px solid #eee;
+    border-bottom: 1px solid #c6c6c6;
   }
 
     .site .footer .contact {
