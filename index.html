@@ -1,16 +1,19 @@
 ---
 layout: default
 title: Tom Preston-Werner
+published: true
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Reading notes, etc.</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
+  
+  <!-- Static content; temporarily commented out.
   <h1>Highlighted Media</h1>
   <ul class="posts">
     <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li>
@@ -80,4 +83,5 @@ title: Tom Preston-Werner
     <li><a href="http://github.com/mojombo/grit/">Grit:</a> Object oriented Ruby bindings for Git (used by GitHub).</li>
     <li><a href="http://github.com/mojombo/ernie/">Ernie:</a> Ruby/Erlang Hybrid BERT-RPC server.</li>
   </ul>
+-->
 </div>
