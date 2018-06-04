@@ -125,6 +125,10 @@ ul.posts {
     overflow: hidden;
   }
 
+	.site .footer p {
+      line-height: 120%;  
+	}
+
     .site .footer .contact {
       float: left;
       margin-right: 3em;
