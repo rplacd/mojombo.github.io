@@ -149,6 +149,11 @@ ul.posts {
 
 }
 
+  #post .title a {
+    color: #a00;
+    text-decoration: none;
+  }
+
   /* standard */
 
   #post pre {
