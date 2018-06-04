@@ -5,7 +5,9 @@ published: true
 
 
 <div id="post">
-  <div class="title">{{ page.title }}</div>
+  <div id="title-block">
+    <span class="title">{{ page.title }}</span> {{ post.date }}
+  </div>
 {{ content }}
 </div>
 
