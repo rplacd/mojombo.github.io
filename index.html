@@ -8,7 +8,8 @@ published: true
   <h1>Reading notes, etc.</h1>
   <ul class="posts">
     {% for post in site.posts %}
-        {{ post | jsonify }}
+        {{ post.is_file | jsonify }}
+        {{ post.subtitle | jsonify }}
       {% if post.is_file %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.file }}">{{ post.title }}</a></li> {{ post.subtitle }}
       {% else %}
