@@ -1,3 +1,4 @@
+---
 published: true
 layout: post
 title: Solved problems in short exact sequences of group homomorphisms. 
