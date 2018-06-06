@@ -67,7 +67,7 @@ ul.posts {
     margin: 6em inital;
   }
 
-  ul.posts li::first-line {
+  ul.posts li:first-line {
     text-indent: -4em;
   }
 
