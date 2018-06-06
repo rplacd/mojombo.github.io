@@ -64,6 +64,11 @@ ul.posts {
 
   ul.posts li {
     line-height: 1.75em;
+    margin: 6em inital;
+  }
+
+  ul.posts li:first-of-type {
+    text-indent: -4em;
   }
 
   ul.posts span {
